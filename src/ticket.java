@@ -10,7 +10,7 @@ public class ticket {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Please enter Km : ");
+        System.out.print("Please enter distance in Km : ");
         km = input.nextDouble();
 
         double price = 0.10 * km;

@@ -1,10 +1,12 @@
+package Conditional_Statements;
+
 import java.util.Scanner;
 
 public class temperature {
     public static void main(String[] args) {
         System.out.println("Welcome to our activity advice application!");
 
-        System.out.print("Please enter the current temperature : ");
+        System.out.print("Please enter the current Conditional_Statements.temperature : ");
 
         Scanner input = new Scanner(System.in);
         int temp = input.nextInt();

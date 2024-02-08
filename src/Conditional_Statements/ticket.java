@@ -1,3 +1,5 @@
+package Conditional_Statements;
+
 import java.util.Scanner;
 
 public class ticket {
@@ -20,7 +22,7 @@ public class ticket {
         System.out.print("Please enter your age : ");
         age = input.nextInt();
 
-        System.out.println("İf your ticket is a round trip please enter 1 if not enter 2.");
+        System.out.println("İf your Conditional_Statements.ticket is a round trip please enter 1 if not enter 2.");
         type = input.nextInt();
 
         double discount1, discount2, newPrice;

@@ -1,3 +1,5 @@
+package Conditional_Statements;
+
 import java.util.Scanner;
 
 public class calculator {

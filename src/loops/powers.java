@@ -7,9 +7,6 @@ public class powers {
         Scanner input = new Scanner(System.in);
         int value = input.nextInt();
 
-        int num1 = 4;
-        int num2 = 5;
-        int five = 0, four = 0;
         int i = 1;
         int k = 1;
         do {

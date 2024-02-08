@@ -11,8 +11,8 @@ public class combination {
         int r = input.nextInt();
 
         int nFac = 1;
-        int i = 1;
-        int k = 1;
+        int i ;
+        int k ;
         int rFac = 1;
 
         if(n>=r){

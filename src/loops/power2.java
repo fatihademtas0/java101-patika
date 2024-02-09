@@ -1,4 +1,5 @@
 package loops;
+
 import java.util.Scanner;
 
 public class power2 {
@@ -12,8 +13,8 @@ public class power2 {
 
         int total = 1;
         for (int i = 1; i <= pow; i++) {
-            total *=num;
+            total *= num;
         }
-        System.out.println(num+" ^ "+pow+" = "+total);
+        System.out.println(num + " ^ " + pow + " = " + total);
     }
 }

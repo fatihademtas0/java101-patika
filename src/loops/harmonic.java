@@ -14,5 +14,6 @@ public class harmonic {
             result += 1/i;
         }
         System.out.println(result);
+        //sa
     }
 }

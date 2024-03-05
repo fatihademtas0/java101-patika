@@ -2,7 +2,7 @@ package methods;
 
 import java.util.Scanner;
 
-public class power {
+public class recursive_exponent {
 
     static int power(int base, int exponent) {
         if (base == 1)

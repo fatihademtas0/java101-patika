@@ -18,7 +18,7 @@ public class Main {
         Student st2 = new Student("Fatih","2022","3",algorithm,humanResources,oop);
         Student st3 = new Student("Esra","2023","3",algorithm,humanResources,oop);
 
-        st1.addBulkExamNote(55,65,65);
+        st1.addBulkExamNote(55,40,65);
         st2.addBulkExamNote(90,80,95);
         st3.addBulkExamNote(88,70,100);
 

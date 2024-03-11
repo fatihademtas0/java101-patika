@@ -49,7 +49,8 @@ public class Employee {
         return raise;
     }
 
-    public String toString() {
-        return String.format("Name : %-10s | Salary : %-5f | Work Hours : %-5d | Hire Years : %-5d |", this.name, this.salary, this.workHours, this.hireYear);
+    public  String toString() {
+        return String.format("Name : %-5s | Salary : %-5f | Work Hours : %-1d | Hire Years : %-5d |",
+                this.name, this.salary, this.workHours, this.hireYear);
     }
 }

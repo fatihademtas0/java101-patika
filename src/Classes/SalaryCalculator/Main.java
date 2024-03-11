@@ -1,5 +1,6 @@
 package Classes.SalaryCalculator;
 
+
 public class Main {
     public static void main(String[] args) {
         Employee emp1 = new Employee("Fatih Tas",1000,45,2000);
@@ -8,6 +9,11 @@ public class Main {
         emp1.salary += (emp1.bonus() + emp1.raiseSalary()) - emp1.tax();
         emp2.salary += (emp2.bonus() + emp2.raiseSalary()) - emp2.tax();
 
+        System.out.println("----Employee List----");
+        System.out.println(emp1.toString());
+        System.out.println(emp2.toString());
+
+        System.out.println("----------------------");
 
         System.out.println(emp1.name+"'s salary is : "+ emp1.salary);
         System.out.println(emp2.name+"'s salary is : "+ emp2.salary);

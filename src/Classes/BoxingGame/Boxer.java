@@ -1,4 +1,4 @@
-package Classes.BoxingMatch;
+package Classes.BoxingGame;
 
 public class Boxer {
     String name;

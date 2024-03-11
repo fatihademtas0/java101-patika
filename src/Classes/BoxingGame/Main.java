@@ -1,4 +1,4 @@
-package Classes.BoxingMatch;
+package Classes.BoxingGame;
 
 import java.util.ArrayList;
 import java.util.List;

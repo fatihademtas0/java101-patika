@@ -1,7 +1,6 @@
 package Arrays;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class Transpose {
     public static void main(String[] args) {
@@ -14,7 +13,6 @@ public class Transpose {
         int col = input.nextInt();
 
         int[][] list = new int[row][col];
-        int[][] transposeList = new int[col][row];
 
         for (int i = 0; i < list.length; i++) {
             for (int j = 0; j < list[i].length; j++) {

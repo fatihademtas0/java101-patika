@@ -24,6 +24,7 @@ public class RepeatingValues {
             }
         }
     }
+
     static boolean wasFound(int[] arr, int value) {
         for (int i : arr) {
             if (i == value) {

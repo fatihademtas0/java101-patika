@@ -40,7 +40,7 @@ public class Main {
 
         switch (selectMatch()) {
             case 1:
-                Ring match = new Ring(f1, f2, 65, 85);
+                Ring match = new Ring(f1, f2, 60, 85);
                 match.run(f1, f2);
                 break;
             case 2:

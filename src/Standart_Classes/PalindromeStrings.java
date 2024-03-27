@@ -22,9 +22,7 @@ public class PalindromeStrings {
         for (int i = str.length() - 1; i >= 0; i--) {
             reverse += str.charAt(i);
         }
-        if (!reverse.equals(str))
-            return false;
-        return true;
+        return str.equals(reverse);
     }
 
     public static void main(String[] args) {

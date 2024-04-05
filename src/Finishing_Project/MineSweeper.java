@@ -53,7 +53,10 @@ public class MineSweeper {
                 }
 
                 if (mineBoard[selectedRow][selectedCol].equals("*")) {
+                    System.out.println("***************************");
                     System.out.println("You stepped on a mine!");
+                    print2DArray(gameBoard);
+                    System.out.println("***************************");
                     System.out.println("--GAME OVER--");
                     print2DArray(mineBoard);
                     gameOver = true;
@@ -72,11 +75,11 @@ public class MineSweeper {
                         }
                     }
                     if (!checkWin()) {
-                        System.out.println("--YOU WİN--");
+                        print2DArray(gameBoard);
                         System.out.println("***************************");
                         print2DArray(mineBoard);
                         System.out.println("***************************");
-                        print2DArray(gameBoard);
+                        System.out.println("--YOU WİN--");
                         gameOver = true;
                     }
                 } else if (!gameBoard[selectedRow][selectedCol].equals("-")) {
@@ -86,7 +89,6 @@ public class MineSweeper {
             }
         }
     }
-
 
     public void createBoard() {
 
@@ -116,7 +118,7 @@ public class MineSweeper {
                 i--;
             }
         }
-        //print2DArray(mineBoard);
+        print2DArray(mineBoard);
         System.out.println("--------------------------");
     }
 

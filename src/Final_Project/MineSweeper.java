@@ -1,4 +1,4 @@
-package Finishing_Project;
+package Final_Project;
 
 import java.util.Random;
 import java.util.Scanner;
